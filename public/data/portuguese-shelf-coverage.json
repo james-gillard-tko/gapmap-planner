@@ -1,0 +1,577 @@
+{
+  "type": "FeatureCollection",
+  "region": "Portuguese Continental Shelf - Offshore Survey Coverage",
+  "bbox": [-10.0, 38.2, -9.2, 39.0],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PT_2023_001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.5, 38.4],
+          [-9.4, 38.4],
+          [-9.4, 38.5],
+          [-9.5, 38.5],
+          [-9.5, 38.4]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2023_001",
+        "year": 2023,
+        "resolution": 2,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Hydrographic Institute",
+        "vertical_accuracy": 0.2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2022_002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.4, 38.4],
+          [-9.3, 38.4],
+          [-9.3, 38.5],
+          [-9.4, 38.5],
+          [-9.4, 38.4]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2022_002",
+        "year": 2022,
+        "resolution": 3,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Hydrographic Institute",
+        "vertical_accuracy": 0.3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2020_003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.6, 38.4],
+          [-9.5, 38.4],
+          [-9.5, 38.5],
+          [-9.6, 38.5],
+          [-9.6, 38.4]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2020_003",
+        "year": 2020,
+        "resolution": 5,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Hydrographic Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2019_004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.5, 38.5],
+          [-9.4, 38.5],
+          [-9.4, 38.6],
+          [-9.5, 38.6],
+          [-9.5, 38.5]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2019_004",
+        "year": 2019,
+        "resolution": 8,
+        "survey_type": "multibeam",
+        "institution": "Marine Research Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2021_005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.4, 38.5],
+          [-9.3, 38.5],
+          [-9.3, 38.6],
+          [-9.4, 38.6],
+          [-9.4, 38.5]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2021_005",
+        "year": 2021,
+        "resolution": 4,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Hydrographic Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2015_006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.6, 38.5],
+          [-9.5, 38.5],
+          [-9.5, 38.6],
+          [-9.6, 38.6],
+          [-9.6, 38.5]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2015_006",
+        "year": 2015,
+        "resolution": 15,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Navy"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2018_007",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.5, 38.6],
+          [-9.4, 38.6],
+          [-9.4, 38.7],
+          [-9.5, 38.7],
+          [-9.5, 38.6]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2018_007",
+        "year": 2018,
+        "resolution": 10,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Hydrographic Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2012_008",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.4, 38.6],
+          [-9.3, 38.6],
+          [-9.3, 38.7],
+          [-9.4, 38.7],
+          [-9.4, 38.6]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2012_008",
+        "year": 2012,
+        "resolution": 20,
+        "survey_type": "multibeam",
+        "institution": "Marine Research Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2005_009",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.6, 38.6],
+          [-9.5, 38.6],
+          [-9.5, 38.7],
+          [-9.6, 38.7],
+          [-9.6, 38.6]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2005_009",
+        "year": 2005,
+        "resolution": 40,
+        "survey_type": "multibeam",
+        "institution": "Marine Research Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2023_010",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.7, 38.4],
+          [-9.6, 38.4],
+          [-9.6, 38.5],
+          [-9.7, 38.5],
+          [-9.7, 38.4]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2023_010",
+        "year": 2023,
+        "resolution": 1,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Hydrographic Institute",
+        "vertical_accuracy": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2010_011",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.7, 38.5],
+          [-9.6, 38.5],
+          [-9.6, 38.6],
+          [-9.7, 38.6],
+          [-9.7, 38.5]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2010_011",
+        "year": 2010,
+        "resolution": 25,
+        "survey_type": "multibeam",
+        "institution": "Marine Research Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2017_012",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.7, 38.6],
+          [-9.6, 38.6],
+          [-9.6, 38.7],
+          [-9.7, 38.7],
+          [-9.7, 38.6]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2017_012",
+        "year": 2017,
+        "resolution": 12,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Hydrographic Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_1998_013",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.5, 38.7],
+          [-9.4, 38.7],
+          [-9.4, 38.8],
+          [-9.5, 38.8],
+          [-9.5, 38.7]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_1998_013",
+        "year": 1998,
+        "resolution": 80,
+        "survey_type": "single_beam",
+        "institution": "Legacy Survey Archive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2000_014",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.4, 38.7],
+          [-9.3, 38.7],
+          [-9.3, 38.8],
+          [-9.4, 38.8],
+          [-9.4, 38.7]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2000_014",
+        "year": 2000,
+        "resolution": 60,
+        "survey_type": "interpolated",
+        "institution": "Satellite Derived Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2016_015",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.6, 38.7],
+          [-9.5, 38.7],
+          [-9.5, 38.8],
+          [-9.6, 38.8],
+          [-9.6, 38.7]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2016_015",
+        "year": 2016,
+        "resolution": 14,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Hydrographic Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2008_016",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.7, 38.7],
+          [-9.6, 38.7],
+          [-9.6, 38.8],
+          [-9.7, 38.8],
+          [-9.7, 38.7]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2008_016",
+        "year": 2008,
+        "resolution": 30,
+        "survey_type": "multibeam",
+        "institution": "Marine Research Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_1992_017",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.8, 38.5],
+          [-9.7, 38.5],
+          [-9.7, 38.6],
+          [-9.8, 38.6],
+          [-9.8, 38.5]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_1992_017",
+        "year": 1992,
+        "resolution": 120,
+        "survey_type": "single_beam",
+        "institution": "Legacy Survey Archive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_1995_018",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.8, 38.6],
+          [-9.7, 38.6],
+          [-9.7, 38.7],
+          [-9.8, 38.7],
+          [-9.8, 38.6]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_1995_018",
+        "year": 1995,
+        "resolution": 100,
+        "survey_type": "single_beam",
+        "institution": "Legacy Survey Archive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2002_019",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.8, 38.7],
+          [-9.7, 38.7],
+          [-9.7, 38.8],
+          [-9.8, 38.8],
+          [-9.8, 38.7]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2002_019",
+        "year": 2002,
+        "resolution": 55,
+        "survey_type": "interpolated",
+        "institution": "Satellite Derived Data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2022_020",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.9, 38.5],
+          [-9.8, 38.5],
+          [-9.8, 38.6],
+          [-9.9, 38.6],
+          [-9.9, 38.5]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2022_020",
+        "year": 2022,
+        "resolution": 3,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Hydrographic Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2014_021",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.9, 38.6],
+          [-9.8, 38.6],
+          [-9.8, 38.7],
+          [-9.9, 38.7],
+          [-9.9, 38.6]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2014_021",
+        "year": 2014,
+        "resolution": 18,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Navy"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2006_022",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.9, 38.7],
+          [-9.8, 38.7],
+          [-9.8, 38.8],
+          [-9.9, 38.8],
+          [-9.9, 38.7]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2006_022",
+        "year": 2006,
+        "resolution": 45,
+        "survey_type": "multibeam",
+        "institution": "Marine Research Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2020_023",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-10.0, 38.6],
+          [-9.9, 38.6],
+          [-9.9, 38.7],
+          [-10.0, 38.7],
+          [-10.0, 38.6]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2020_023",
+        "year": 2020,
+        "resolution": 6,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Hydrographic Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_1988_024",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-10.0, 38.7],
+          [-9.9, 38.7],
+          [-9.9, 38.8],
+          [-10.0, 38.8],
+          [-10.0, 38.7]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_1988_024",
+        "year": 1988,
+        "resolution": 150,
+        "survey_type": "single_beam",
+        "institution": "Legacy Survey Archive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2011_025",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.8, 38.4],
+          [-9.7, 38.4],
+          [-9.7, 38.5],
+          [-9.8, 38.5],
+          [-9.8, 38.4]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2011_025",
+        "year": 2011,
+        "resolution": 22,
+        "survey_type": "multibeam",
+        "institution": "Marine Research Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2019_026",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-9.9, 38.4],
+          [-9.8, 38.4],
+          [-9.8, 38.5],
+          [-9.9, 38.5],
+          [-9.9, 38.4]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2019_026",
+        "year": 2019,
+        "resolution": 7,
+        "survey_type": "multibeam",
+        "institution": "Portuguese Hydrographic Institute"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PT_2003_027",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-10.0, 38.5],
+          [-9.9, 38.5],
+          [-9.9, 38.6],
+          [-10.0, 38.6],
+          [-10.0, 38.5]
+        ]]
+      },
+      "properties": {
+        "survey_id": "PT_2003_027",
+        "year": 2003,
+        "resolution": 65,
+        "survey_type": "interpolated",
+        "institution": "Satellite Derived Data"
+      }
+    }
+  ]
+}
