@@ -21,8 +21,16 @@ export function MapContainer({ children }: MapContainerProps) {
         zoomControl={true}
       >
         <LayersControl position="topright">
+          {/* Satellite Base Layer - Default */}
+          <LayersControl.BaseLayer checked name="Satellite">
+            <TileLayer
+              attribution='&copy; <a href="https://www.esri.com/">Esri</a>'
+              url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+            />
+          </LayersControl.BaseLayer>
+
           {/* OpenStreetMap Base Layer */}
-          <LayersControl.BaseLayer checked name="OpenStreetMap">
+          <LayersControl.BaseLayer name="OpenStreetMap">
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -39,14 +47,6 @@ export function MapContainer({ children }: MapContainerProps) {
               layers="emodnet:mean_atlas_land"
               format="image/png"
               transparent={true}
-            />
-          </LayersControl.BaseLayer>
-
-          {/* Satellite Base Layer */}
-          <LayersControl.BaseLayer name="Satellite">
-            <TileLayer
-              attribution='&copy; <a href="https://www.esri.com/">Esri</a>'
-              url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
             />
           </LayersControl.BaseLayer>
         </LayersControl>
