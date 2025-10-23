@@ -32,12 +32,20 @@ function App() {
     <div className="h-screen w-screen flex flex-col bg-white">
       {/* Modern SaaS Header */}
       <header className="bg-white border-b border-gray-200 z-10">
-        <div className="container mx-auto px-12 py-2 max-w-[1800px]">
+        <div className="container mx-auto px-12 py-3 max-w-[1800px]">
           <div className="flex items-center justify-between">
             {/* Title Section */}
-            <div>
-              <h1 className="text-base font-bold text-gray-900">GapMap Planner</h1>
-              <p className="text-[10px] text-gray-500">Seabed Coverage Analytics</p>
+            <div className="flex items-center gap-4">
+              {/* App Icon */}
+              <img
+                src="https://i.imgur.com/FvbIdeI.png"
+                alt="GapMap Planner Logo"
+                className="w-12 h-12"
+              />
+              <div>
+                <h1 className="text-xl font-bold text-gray-900">GapMap Planner</h1>
+                <p className="text-xs text-gray-500">Seabed Coverage Analytics</p>
+              </div>
             </div>
 
             {/* Action Buttons */}
