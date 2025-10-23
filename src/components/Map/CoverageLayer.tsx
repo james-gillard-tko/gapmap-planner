@@ -1,4 +1,4 @@
-import { GeoJSON, Popup } from 'react-leaflet';
+import { GeoJSON } from 'react-leaflet';
 import type { PathOptions } from 'leaflet';
 import { QUALITY_COLORS, POLYGON_OPACITY, POLYGON_WEIGHT } from '../../lib/colors';
 import { calculateDataGapScore, getQualityDescription } from '../../lib/scoring';
