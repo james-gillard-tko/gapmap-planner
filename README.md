@@ -1,73 +1,93 @@
-# React + TypeScript + Vite
+# GapMap Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive web application for visualizing and analyzing seabed survey coverage gaps. Draw regions of interest and instantly identify areas with existing bathymetry data coverage.
 
-Currently, two official plugins are available:
+Built for the **EDITO Model Lab Hackathon 2025**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## React Compiler
+GapMap Planner helps marine scientists and survey planners identify gaps in seabed mapping coverage by:
+- Visualizing existing survey data on an interactive map
+- Drawing custom polygon areas of interest
+- Filtering survey tiles based on center-point-in-polygon analysis
+- Displaying data quality metrics (resolution, vertical accuracy, survey year)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Current Status:** Prototype using dummy data off the coast of Lisbon, Portugal.
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React 19** + **TypeScript** - Modern UI framework
+- **Leaflet** - Interactive mapping
+- **Turf.js** - Geospatial analysis (point-in-polygon filtering)
+- **Vite** - Build tool
+- **TailwindCSS** + **shadcn/ui** - Styling
+- **Docker** - Containerization for EDITO deployment
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Future Development
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Short Term
+- Integration with real bathymetry data sources:
+  - **GEBCO** (General Bathymetric Chart of the Oceans)
+  - **EMODnet** (European Marine Observation and Data Network)
+- Expand geographic coverage beyond Portuguese shelf
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Long Term
+- Host application within EDITO infrastructure
+- On-the-fly access to bathymetry data in Zarr format
+- Real-time data fetching when users draw polygon areas of interest
+- Export functionality for survey planning reports
+- Multi-resolution data visualization
+
+## Running Locally
+
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/james-gillard-tko/gapmap-planner.git
+cd gapmap-planner
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Open http://localhost:5173 in your browser.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Build for Production
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build
 ```
+
+## Docker Deployment
+
+The application includes Docker configuration for deployment to the EDITO service catalog:
+
+```bash
+# Build Docker image (IMPORTANT: use --platform flag for EDITO compatibility)
+docker build --platform linux/amd64 -t gapmap-planner:latest .
+
+# Run locally
+docker run -p 8080:80 gapmap-planner:latest
+```
+
+Access at http://localhost:8080
+
+## Usage
+
+1. Click **Draw Polygon** to enter drawing mode
+2. Click on the map to add vertices (minimum 3 points)
+3. Click near the first point (green marker) to close the polygon
+4. Survey tiles with center points inside the polygon are displayed
+5. Click **Reset** to clear and start over
+
+## License
+
+MIT
