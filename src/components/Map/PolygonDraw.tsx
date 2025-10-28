@@ -122,7 +122,8 @@ export function PolygonDraw({ isDrawing, onPolygonComplete, drawnPolygon }: Poly
         color: '#3b82f6',
         fillColor: '#3b82f6',
         fillOpacity: 0.1,
-        weight: 3
+        weight: 3,
+        interactive: false  // Allow clicks to pass through to tiles beneath
       }).addTo(map);
     }
 
